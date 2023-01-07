@@ -1,4 +1,4 @@
-export const data = [
+export const Data = [
 {
     symbol : "😁",
     name : "cara alegre",
@@ -39,5 +39,9 @@ export const data = [
     name: "cabeza explotada",
     keywords: "head exploding mind blowing",
   },
-
+  {
+    symbol: "🏃‍♂️",
+    name: "hombre correr",
+    keywords: "running correr",
+  },
 ];

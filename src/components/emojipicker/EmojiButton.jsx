@@ -1,6 +1,6 @@
-import styles from "./EmojiPicker.module.scss";
+import styles from "./emojiPicker.module.scss";
 
-export default function EmojiButton({ emoji, onClick }) {
+function EmojiButton({ emoji, onClick }) {
   function handleOnClick() {
     onClick(emoji);
   }
@@ -11,3 +11,4 @@ export default function EmojiButton({ emoji, onClick }) {
     </button>
   );
 }
+export default EmojiButton
