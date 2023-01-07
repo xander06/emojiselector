@@ -16,7 +16,7 @@ body {
 }
 
 .navbar-expand-lg .navbar-nav {
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 
