@@ -49,9 +49,6 @@ For a live demo please click on the following link ⏭️⏭️:
 
 - [Youtube Vida MRR - Programacion web](https://www.youtube.com/@vidamrr)
 
-👤 **Wheater Api**
-
-- [Wheather Api](https://www.weatherapi.com/api.aspx)
 
 ## 🤝 Contributing
 
