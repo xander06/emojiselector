@@ -5,6 +5,10 @@ body {
   font-family: 'Montserrat', sans-serif !important;
   background-image: url(../public/img/granblack.jpg);
   color: #fff;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .container {
@@ -25,11 +29,16 @@ body {
   justify-content: center;
 }
 
+.navbar-toggler-icon {
+  background-image: url(
+  "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(251, 255, 17, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  }
+
 .posini {
   width: auto;
   display: flex;
   justify-content: center;
-}
+ }
 
 .nav-bar {
   width: 100%;
@@ -86,4 +95,3 @@ body {
   flex-grow: 1;
   color: #eaeaea;
 }
-
