@@ -1,13 +1,15 @@
 import { forwardRef, useEffect, useRef, useState } from "react";
-import { Data as emojiList } from "./Data";
+import { data as emojiList } from "./Data";
 import EmojiButton from "./EmojiButton";
-import EmojiList from "./EmojiList";
-import styles from "./emojiPicker.module.scss";
+
+import styles from  './emojiPicker.module.scss';
 import EmojiSearch from "./EmojiSearch";
+import EmojiList from "./EmojiList";
 
 export default forwardRef((props, inputRef) => {
   const [isOpen, setIsOpen] = useState(false);
   const [emojis, setEmojis] = useState([...emojiList]);
+
   const containerRef = useRef(null);
 
   useEffect(() => {

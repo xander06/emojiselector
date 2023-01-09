@@ -57,20 +57,22 @@ body {
 }
 
 .logo {
-  display: block ruby;
+  display: flex;
+  align-items: center;
 }
 
 .logo p {
   display: flex;
   font-family: 'Comfortaa', cursive;
   font-weight: bold;
-  font-size: 22px;
-  color: rgb(5, 5, 5);
+  font-size: 2em;
+  color: rgb(250, 249, 249);
+  margin: auto;
 }
 
 .navelementact {
   margin: 2%;
-  color: rgb(9, 9, 9);
+  color: rgb(250, 248, 248);
   display: flex;
   position: relative;
   justify-content: space-around;
