@@ -1,4 +1,4 @@
-import styles from  '../emojipicker/emojiPicker.module.scss';
+import styles from  './emojipicker.module.scss';
 
 function EmojiButton({ emoji, onClick }) {
   function handleOnClick() {
