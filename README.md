@@ -35,7 +35,7 @@ Use the following steps to run this Portfolio locally:
 ### Deployment 🫣😊👌😁
 
 For a live demo please click on the following link ⏭️⏭️:
-[5Proyectos 3 Emoji Selector](https://wheatherapp2xacr.netlify.app/)
+[5Proyectos 3 Emoji Selector](https://emojiselectorxacr.netlify.app/)
 
 
 ## Authors
