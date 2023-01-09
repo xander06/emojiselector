@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import styles from  './emojiPicker.module.scss';
+import styles from  '../emojipicker/emojiPicker.module.scss';
 import EmojiPicket from "./EmojiPicker";
 
 function EmojiPickerInput() {

@@ -2,7 +2,7 @@ import { forwardRef, useEffect, useRef, useState } from "react";
 import { data as emojiList } from "./Data";
 import EmojiButton from "./EmojiButton";
 
-import styles from  './emojiPicker.module.scss';
+import styles from  '../emojipicker/emojiPicker.module.scss';
 import EmojiSearch from "./EmojiSearch";
 import EmojiList from "./EmojiList";
 
